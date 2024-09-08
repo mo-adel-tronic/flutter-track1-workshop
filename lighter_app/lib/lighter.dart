@@ -1,4 +1,3 @@
-// ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
 
@@ -10,8 +9,12 @@ class LighterScreen extends StatefulWidget {
 }
 
 class _LighterScreenState extends State<LighterScreen> {
+  bool switcher = false;
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+     
+    );
   }
 }
