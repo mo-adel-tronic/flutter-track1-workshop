@@ -40,6 +40,7 @@ dependencies:
     path: ./xo_app
   flutter:
     sdk: flutter
+  math_expressions: ^2.6.0
 
 dev_dependencies:
 

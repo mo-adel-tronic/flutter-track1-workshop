@@ -5,8 +5,8 @@ import 'package:workshop/core/routes/routes_name.dart';
 
 void main() {
   runApp(DevicePreview(
-    builder: (context) =>const MyApp(),
-    enabled: true, 
+    builder: (context) => const MyApp(),
+    enabled: true,
   ));
 }
 
@@ -16,12 +16,13 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return  MaterialApp(
       debugShowCheckedModeBanner: false,
       locale: DevicePreview.locale(context),
       builder: DevicePreview.appBuilder,
-      initialRoute: RoutesName.lighterApp,
+      initialRoute: RoutesName.splash,
       onGenerateRoute: AppRoute.generate,
+     
     );
   }
 }

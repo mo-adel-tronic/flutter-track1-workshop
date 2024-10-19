@@ -1,0 +1,87 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "name": "flutter-track1-workshop",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter-track1-workshop (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter-track1-workshop (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "basket_app",
+            "cwd": "basket_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "basket_app (profile mode)",
+            "cwd": "basket_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "basket_app (release mode)",
+            "cwd": "basket_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "calculator_app",
+            "cwd": "calculator_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "calculator_app (profile mode)",
+            "cwd": "calculator_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "calculator_app (release mode)",
+            "cwd": "calculator_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "lighter_app",
+            "cwd": "lighter_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "lighter_app (profile mode)",
+            "cwd": "lighter_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "lighter_app (release mode)",
+            "cwd": "lighter_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

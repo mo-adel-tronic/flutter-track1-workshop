@@ -5,6 +5,7 @@ import 'package:lighter_app/lighter.dart';
 import 'package:workshop/core/routes/routes_name.dart';
 import 'package:workshop/pages/home_screen.dart';
 import 'package:workshop/pages/splash_screen.dart';
+import 'package:xo_app/xo_app.dart';
 
 class AppRoute {
   static Route<dynamic> generate(RouteSettings? settings) {
@@ -31,7 +32,7 @@ class AppRoute {
         });
       case RoutesName.xoApp:
         return MaterialPageRoute(builder: (_) {
-          return const CalculatorApp();
+          return const XoApp();
         });
       default:
         throw Exception('Route not found!');
